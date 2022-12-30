@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MobileOffloader</string>
+    <string-array name="imageTags">
+<!--        <item>Select Image Tag</item>-->
+        <item>Selfies</item>
+        <item>Cars</item>
+        <item>Food</item>
+        <item>Pets</item>
+        <item>Scenic</item>
+        <item>Miscellaneous</item>
+    </string-array>
+</resources>
