@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             imageBitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), contentUri);
                             ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                            imageBitmap.compress(Bitmap.CompressFormat.PNG, 25, stream);
+                            imageBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
                             byteArray = stream.toByteArray();
                             imageb64 = Base64.encodeToString(byteArray, Base64.DEFAULT);
                             nextPage.setVisibility(View.VISIBLE);
